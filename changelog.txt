@@ -1,5 +1,2 @@
-- Fixed: Some checks enforcing relationship limits
-- Fixed: Some issues regarding the relations API
-- Fixed: Vehicle use flag minor issue
-+ Changed: Prevent explosions at prime stage
-- Fixed: Inbox message not broadcasted to everyone
+- Fixed: 1.20.1 WindCharge error
+- Fixed: Error at container deletion in rare cases
