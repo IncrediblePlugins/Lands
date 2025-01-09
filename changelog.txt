@@ -1,2 +1,8 @@
+Lands now requires Java 21 or newer.
+
++ Added: Support for Nexo items, blocks and furniture
+You can use them in the GUI, for the mainblock and tools etc.. for every item or block in Lands
+How to use them: https://wiki.incredibleplugins.com/general/menus/gui-menus#nexo-custom-items-blocks-and-furniture
+
 + Changed: /lands trust <player> no longer trusts a player to all subareas unless specified via the area parameter: /lands trust <player> <area or * for all subareas>
     The same applies to untrust, ban, unban, setrole
