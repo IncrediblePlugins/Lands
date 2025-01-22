@@ -1,2 +1,3 @@
-- Fixed: Creepers not exploding
-- Fixed: Flags that aren't managed by nation kept reseting randomly
++ Added: /lands admin land <land or *> removespawn
+- Fixed: Fly counter task error
+- Fixed: Auto spawn creation
