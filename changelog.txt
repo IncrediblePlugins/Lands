@@ -1,3 +1,2 @@
-+ Added: /lands admin land <land or *> removespawn
-- Fixed: Fly counter task error
-- Fixed: Auto spawn creation
++ Changed: Deny entity interaction while in selection mode
+- Fixed: Default locale for tnt griefing flag
