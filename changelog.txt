@@ -1,2 +1,1 @@
-+ Changed: Deny entity interaction while in selection mode
-- Fixed: Default locale for tnt griefing flag
+- Fixed: Crafter being able to opened by visitors
