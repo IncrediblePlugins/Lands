@@ -1,1 +1,1 @@
-- Fixed: Crafter being able to opened by visitors
++ Added: API for rental stuff
