@@ -1,1 +1,11 @@
-- Fixed: Lingering potion protection
++ Added: Option to control PlaceholderAPI placeholders in title message
+  # Land enter title options
+  title:
+    # Should players be allowed to use PlaceholderAPI placeholders, in the land title?
+    placeholderapi:
+      # Should players be allowed to use PlaceholderAPI placeholders provided by Lands?
+      # This does not require PlaceholderAPI to be installed.
+      lands: true
+      # Should players be allowed to use PlaceholderAPI placeholders provided by 3rd party plugins and Lands?
+      # This requires PlaceholderAPI to be installed.
+      3rd-party: false
