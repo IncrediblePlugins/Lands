@@ -998,7 +998,7 @@ database:
     # It is highly recommended to set a unique table prefix if the plugin shares a database with other plugins.
     table-prefix_2: 'lands_'
 
-  # Needed to synchronize lands and claims across servers.
+  # Only needed if you want to synchronize lands, nations and claims across servers.
   redis:
     enabled_6: false
     address_3: "redis://127.0.0.1"

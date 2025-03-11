@@ -1,1 +1,2 @@
-- Fixed: Potiontype error with some 3rd party plugins
++ Added: You can now define an anchor for the spawn icon in web.yml for bluemap
+- Fixed: View tool error - expected claimed chunk
