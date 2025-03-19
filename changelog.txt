@@ -1,2 +1,10 @@
-+ Added: You can now define an anchor for the spawn icon in web.yml for bluemap
-- Fixed: View tool error - expected claimed chunk
++ Added: Option to give shield if surrendered pre war
+    # Give a shield to the land that surrendered before the war even started.
+    declaration:
+      # Only give the shield, if they paid at least the specified amount of money as a tribute.
+      min-tribute: 1000
+      # Set to 0, to disable this shield.
+      shield_declaration_time: 1d
+
+- Fixed: Armadillos bypassing animal spawn flag
+- Fixed: Mace not shooting player back in air
