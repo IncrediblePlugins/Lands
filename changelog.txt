@@ -1,1 +1,2 @@
 + Added: New placeholderAPI placeholders regarding land bank and land members balance
++ Added: API captureflag additions
