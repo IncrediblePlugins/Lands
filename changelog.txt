@@ -1,3 +1,1 @@
-- Fixed: Some particle issues
-+ Added: API: CaptureFlagProgressEvent
-- Removed: Deprecated capture flag events
++ Added: New placeholderAPI placeholders regarding land bank and land members balance
