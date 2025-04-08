@@ -1,2 +1,1 @@
-+ Added: New placeholderAPI placeholders regarding land bank and land members balance
-+ Added: API captureflag addition
+- Fixed: land_balance_short placeholder
