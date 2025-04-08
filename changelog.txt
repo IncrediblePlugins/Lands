@@ -1,1 +1,3 @@
-- Fixed: land_balance_short placeholder
+I've reworked the merge feature in the next version. Land owners will be able to send a request for another land (owned by somebody else) to be merged into theirs. They need to confirm before that they accept to pay the claim costs of the additional chunks, in case that the other land accepts the merge request. The merge request will go in the players Invites & Requests GUI, which is accessible from the main menu or /lands invites.
+
+If the land is owned by the same player, they can merge it without sending a request.
