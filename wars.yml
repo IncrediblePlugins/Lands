@@ -238,6 +238,10 @@ invading:
     # Set a time period where players are still able to attack the land after the last player of the target land left the server.
     cooldown_logging_time: 1m
 
+  # Should players be able to fight in the lands of the allies of both sides as well or just
+  # in the land that declared war or got declared war against?
+  allies-war-field: false
+
   # Limit what invading enemies are able to do.
   flags:
     # Allow players doing the following things in the enemy land (only during war).
