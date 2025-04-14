@@ -1,2 +1,10 @@
-- Fixed: Player sync issue with Redis and teleport payload
-- Fixed: Message not found wars.noaccess.allies
+Captureflags have slightly changed:
+- defenders only capture if more defenders than attackers are inside capture flag area
+- attackers only capture if more attackers than attackers are inside capture flag area
+- if amount of both teams is equal nobody captures
+
+- Fixed: Missing GUI item failure_nation_none
+- Fixed: expected rent block error
+- Fixed: Saving player with too many invites
+- Fixed: SQL transaction lock when deleting lands with Redis
+- Fixed: Issues with bossbars at captureflags
