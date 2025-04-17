@@ -1,2 +1,2 @@
-+ Added: "hide-tooltip" and "tooltip-style" proterties to GUI file. Read wiki for more info
++ Added: "hide-tooltip" and "tooltip-style" properties to GUI file. Read wiki for more info
 - Fixed: Respawn anchor bypassing explode flag
