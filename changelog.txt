@@ -1,2 +1,1 @@
-+ Added: "hide-tooltip" and "tooltip-style" properties to GUI file. Read wiki for more info
-- Fixed: Respawn anchor bypassing explode flag
++ Improved: Ticking of wars with Redis enabled
