@@ -1,1 +1,1 @@
-+ Improved: Ticking of wars with Redis enabled
+- Fixed: Cross server player message if no placeholders
