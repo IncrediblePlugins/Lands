@@ -1,3 +1,2 @@
-+ Added: API CaptureFlag methods
-+ Added: API Item storage retrieval for lands
-- Fixed: Cross server player message if no placeholders
+- Fixed: Saved x name changes to database spam
++ Improved: placecache saving - reduce file size
