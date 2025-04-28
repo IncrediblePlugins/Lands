@@ -109,7 +109,6 @@ sounds:
   capture:
     place_sound: 'BLOCK_BELL_USE'
 
-
 # War status message interval. This message appears while the war is running. This is very useful to inform players, which might have been offline for some time, that their land is participating in a war.
 status-interval_time: 15m
 
@@ -217,11 +216,12 @@ end:
   # If you have banks disabled, the money will be taken from the land owner.
   robbery: 75%
 
-
 # Here you can enable natural flags during a war.
 # List of available land-flags: https://wiki.incredibleplugins.com/lands/configuration/natural-flags
 land-flags_list: [ ]
 
+# Should players keep their inventory, if they die during a war?
+keep-inventory: false
 
 # Invading means that the enemy is invading their opponent. Depending on the options "role-settings_list", "block-place_list" and "block-break_list"
 # they will be able to do certain actions in these lands, like opening chests.
