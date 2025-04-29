@@ -100,6 +100,8 @@ capture:
   firework_time: 30s
   # Should a capture flag item be dropped at removal of the capture flag?
   drop: false
+  # Allow players of the team that placed the flag to break it as well.
+  invaders-break: true
   # Limit y levels on which capture flags are placeable.
   y:
     min: 30

@@ -1,18 +1,4 @@
-Added an option for that in wars.yml in the next version:
-
-# Should players keep their inventory, if they die during a war?
-keep-inventory: false
-
-
-Also an important note there will be a option added in config.yml for outside of wars as well, you need to enable it if you want them to keep their inv if they die inside land claims.
-
-  # Should players keep their inventory, if they die inside a land?
-  # This option is forcefully enabled, if the player dies inside an area where they can't pickup items.
-  # For wars this can be configured in wars.yml.
-  keep-inventory: false
-
-
-+ Changed: WorldEdit integration no longer has its own lands.bypass.worldedit permissions. Use the bypass permissions
-for block break and block place instead.
-
-- Fixed: Players being able to bypass area limit
++ Added: [Suggestion] API -> Land#setLandType
++ Added: [Suggestion] Option to disable invaders breaking their own capture flags
+  # Allow players of the team that placed the flag to break it as well.
+  invaders-break: true
