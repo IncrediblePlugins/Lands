@@ -1,4 +1,1 @@
-+ Added: [Suggestion] API -> Land#setLandType
-+ Added: [Suggestion] Option to disable invaders breaking their own capture flags
-  # Allow players of the team that placed the flag to break it as well.
-  invaders-break: true
++ Added: Limit the amount of displayed lands of a nation on dynmap
