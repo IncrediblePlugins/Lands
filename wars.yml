@@ -223,7 +223,9 @@ end:
 land-flags_list: [ ]
 
 # Should players keep their inventory, if they die during a war?
-keep-inventory: false
+keep-inventory:
+  enabled_4: false
+  mode: false
 
 # Invading means that the enemy is invading their opponent. Depending on the options "role-settings_list", "block-place_list" and "block-break_list"
 # they will be able to do certain actions in these lands, like opening chests.

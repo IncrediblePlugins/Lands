@@ -537,7 +537,9 @@ land:
   # Should players keep their inventory, if they die inside a land?
   # This option is forcefully enabled, if the player dies inside an area where they can't pickup items.
   # For wars this can be configured in wars.yml.
-  keep-inventory: false
+  keep-inventory:
+    enabled_11: false
+    mode_4: false
 
   # Specified combat settings which do not affect wars.
   combat:

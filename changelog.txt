@@ -1,1 +1,2 @@
-+ Added: Limit the amount of displayed lands of a nation on dynmap
+- Fixed: War won inbox message
+- Fixed: Request alliance if currently enemy
