@@ -1,2 +1,3 @@
-- Fixed: War won inbox message
-- Fixed: Request alliance if currently enemy
+- Fixed: Error with text input for bedrock forms disabled
+- Fixed: Giving claimblocks amount
+- Fixed: Keep inventory applied in wilderness despite being disabled

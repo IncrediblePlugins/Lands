@@ -1004,6 +1004,7 @@ database:
   # Only needed if you want to synchronize lands, nations and claims across servers.
   redis:
     enabled_6: false
+    # Redis url should start with redis:// or rediss:// (for SSL connection).
     address_3: "redis://127.0.0.1"
     port_3: 6379
     # Database index. No other plugin should use the same index.
