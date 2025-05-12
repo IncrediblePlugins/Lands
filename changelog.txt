@@ -1,1 +1,1 @@
-- Fixed: Multi locale for GUI
++ Changed: Set combat tag also during war
