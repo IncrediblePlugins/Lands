@@ -1,3 +1,1 @@
-+ Added: Option to disable teleport deny during combat tag
-      # Deny teleportation if player has active combat tag?
-      deny-teleport: true
+- Fixed: PlayerToggleRoleFlagEvent
