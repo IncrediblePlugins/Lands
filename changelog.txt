@@ -1,1 +1,2 @@
-- Fixed: PlayerToggleRoleFlagEvent
+- Fixed: LandBlockPlaceEvent capture block placement cancellation
++ Added: getFlag for flag toggle event
