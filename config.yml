@@ -728,6 +728,8 @@ player:
 unstuck:
   # Set the cooldown for this command.
   unstuck-cooldown_time: 1h
+  # Allow movement during unstuck teleportation?
+  allow-movement: false
 
 
 # Random teleportation (/lands wild)

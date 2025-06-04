@@ -1,2 +1,2 @@
-- Fixed: LandBlockPlaceEvent capture block placement cancellation
-+ Added: getFlag for flag toggle event
++ Added: [Suggestion] option to allow movement during unstuck tp
++ Added: API -> Role#getHolder
