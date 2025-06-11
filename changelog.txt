@@ -1,2 +1,1 @@
-+ Added: [Suggestion] option to allow movement during unstuck tp
-+ Added: API -> Role#getHolder
+- Fixed: Possible issue with nation effects not being re applied after death correctly
