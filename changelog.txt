@@ -1,1 +1,1 @@
-- Fixed: Possible issue with nation effects not being re applied after death correctly
++ Added: /lands admin player <player> give first-join-items
