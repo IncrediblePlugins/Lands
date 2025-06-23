@@ -1,2 +1,4 @@
-+ Updated: All sounds to the new format in 1.21. You may need to update your existing sound configs.
++ Updated: All sounds to the new format in 1.21 (default config). You may need to update your existing sound configs.
+LANDS WILL PRINT A WARNING TO THE CONSOLE, IF YOUR SOUNDS ARE INVALID. THIS IS NOT A PLUGIN ISSUE. YOU CAN FIX IT BY ADJUSTING YOUR CONFIG AND GUI LOCALE. SEE DEFAULT CONFIG FOR REFERENCE: https://github.com/IncrediblePlugins/Lands/blob/5a3d47735769a8e51c8b941f7e1ce60ed982ac71/config.yml#L782
+
 + Added: Support for happy ghast
