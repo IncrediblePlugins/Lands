@@ -1,1 +1,2 @@
-+ Added: /lands admin player <player> give first-join-items
++ Updated: All sounds to the new format in 1.21. You may need to update your existing sound configs.
++ Added: Support for happy ghast

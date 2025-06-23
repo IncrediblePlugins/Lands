@@ -466,7 +466,7 @@ nation:
 # You can disable sounds by setting them to ''
 sound:
   # Played to each player of the land or nation on level up.
-  up: 'BLOCK_BELL_USE'
+  up: 'block.bell.use'
   # Played to each player of the land or nation on level down.
-  down: 'BLOCK_ANVIL_DESTROY'
+  down: 'block.anvil.destroy'
 

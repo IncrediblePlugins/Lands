@@ -775,31 +775,32 @@ introduction:
 
 
 # Sound configuration
-# Format: SOUND:VOLUME:PITCH
+# You can find the sound names by using the /playsound command ingame.
+# Format: sound,volume,pitch
 # The volume and pitch parameter are optional. They allow you to control how the sound is played.
 # Disabling a sound: Just set it to ''
 sounds:
   # At /lands create
-  create-land_sound: 'BLOCK_ANVIL_USE:0.25'
+  create-land_sound: 'block.anvil.use,0.25'
   # Play a sound on /claim?
   # This does not include radius and claimblock claims.
-  claim_sound: 'ITEM_SHOVEL_FLATTEN'
+  claim_sound: 'item.shovel.flatten'
   # Sent when a player receives a notification. For example when the player receives an invite at /trust.
-  notification_sound: 'ENTITY_EXPERIENCE_ORB_PICKUP:0.25'
+  notification_sound: 'entity.experience_orb.pickup,0.25'
   # Played for the player that invited or trusted someone.
-  invite-sent_sound: 'ITEM_ARMOR_EQUIP_ELYTRA'
+  invite-sent_sound: 'item.armor.equip_elytra'
   # Played for the target player at /lands ban
-  banned_sound: 'BLOCK_IRON_DOOR_CLOSE'
+  banned_sound: 'block.iron_door.close'
 
   # Sound which should be played whenever a player gets teleported by Lands.
   # Sounds can be disabled by setting their value to ''
   teleport:
-    teleported_sound: 'ENTITY_ENDERMAN_TELEPORT'
-    countdown_sound: 'BLOCK_LEVER_CLICK'
+    teleported_sound: 'entity.enderman.teleport'
+    countdown_sound: 'block.lever.click'
 
   # Play a sound when the players fly gets re-enabled after it has been disabled by Lands before.
   # You can disable this, by setting it to ''
-  fly-re-enable_sound: 'ITEM_ARMOR_EQUIP_ELYTRA'
+  fly-re-enable_sound: 'item.armor.equip_elytra'
 
 
 # Top lands and nations leaderboard options

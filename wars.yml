@@ -109,7 +109,7 @@ capture:
 
 sounds:
   capture:
-    place_sound: 'BLOCK_BELL_USE'
+    place_sound: 'block.bell.use'
 
 # War status message interval. This message appears while the war is running. This is very useful to inform players, which might have been offline for some time, that their land is participating in a war.
 status-interval_time: 15m
