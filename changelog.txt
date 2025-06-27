@@ -1,2 +1,1 @@
-+ Added: Support for model-data etc. for skulls section in GUI locale
-+ Added: [Suggestion] New flags: PEACEFUL, EXPIRATION_SHIELD - these flags are only available to server admins
+- Fixed: Slowness potion protection pvp
