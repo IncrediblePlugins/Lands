@@ -1,2 +1,2 @@
-- Fixed: Slowness potion protection pvp
-- Fixed: Luckperms context wrong without _here
+- Fixed: Player teleported when jumping on farmland with combat tag enabled
+- Fixed: API evalProgressingTeam for CaptureFlag
