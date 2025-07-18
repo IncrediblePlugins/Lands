@@ -1,2 +1,1 @@
-- Fixed: Player teleported when jumping on farmland with combat tag enabled
-- Fixed: API evalProgressingTeam for CaptureFlag
+- Fixed: events.yml -> folia console command execution failed
