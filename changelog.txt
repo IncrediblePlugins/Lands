@@ -1,1 +1,3 @@
-- Fixed: events.yml -> folia console command execution failed
+- Fixed: Data holder error in console with Folia
+- Fixed: WindCharge error on multipaper
+- Fixed: Rental sign unusable after restart
