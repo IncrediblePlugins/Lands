@@ -16,13 +16,16 @@ declaration:
     attacker: 0
     # Set minimum amount of trusted players for the defender to receive a war declaration.
     defender_3: 0
-  # "from" and "to" define the hours of each day between which a declaration can be sent.
-  # Minimum: 0 (00:00 AM)
-  # Maximum: 23 (11:00 PM)
-  # Setting one of these to -1 will disable this option.
+
+  # Define when a declaration can be sent.
   send-time:
-    from: -1
-    to: -1
+    # Day of the week. 0 is Monday and 6 is Sunday.
+    # Example: 0,2,3 -> Allows a declaration be sent on Monday, Wednesday and Thursday.
+    # Default: 0-6 -> Allows all days.
+    days_range: "0-6"
+    # Hours of the above defined days during which a declaration can be sent.
+    hours_range: "0-23"
+
   # How much time do you want to give the defender lands for war preparation, before it will start?
   # NOTE: Timeunit is seconds
   # Default is one day
