@@ -1,3 +1,1 @@
-- Fixed: Bedrock forms slots warning on startup false positive
-- Fixed: Nation role permissions not always removed if player leaves land
-- Fixed: Admin war end command not triggering WarEndEvent
+- Fixed: Max lands bypass with setowner command
