@@ -1,1 +1,2 @@
-- Fixed: Max lands bypass with setowner command
+- Fixed: Max own lands bypass with setowner command
+- Fixed: War starting in at /wars info not decreasing
