@@ -659,7 +659,6 @@ chunk:
       # Prevent spawning from spawner blocks, if the monster spawn flag isn't set?
       spawners: false
       # Remove monsters that enter a land or wilderness where monster spawning is disabled? Monsters with a custom name won't be removed.
-      # NOTE: It is recommended to keep this disabled. It can cause incompatibilities with 3rd party mob plugins and might affect your servers performance due minecraft limitations.
       # NOTE: This will also remove monsters spawned by spawners.
       # This option requires server reload / restart.
       remove_2: false
@@ -1074,6 +1073,10 @@ integration:
   # lead to unexpected results, depending on your use-case.
   # This option requires a server reload / restart.
   mythicmobs: false
+
+  # Should skins be fetched from the 3rd party plugin SkinsRestorer.
+  # This option requires the option "general.fetch-skins-names" to be enabled.
+  skins-restorer: false
 
   # Options for vehicles of the Vehicles plugin. This doesn't affect Minecraft vanilla vehicles.
   # If enabled:

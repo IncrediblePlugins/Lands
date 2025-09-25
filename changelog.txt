@@ -1,2 +1,9 @@
-- Fixed: Max own lands bypass with setowner command
-- Fixed: War starting in at /wars info not decreasing
++ Added: Option to disable SkinsRestorer integration
+  # Should skins be fetched from the 3rd party plugin SkinsRestorer.
+  # This option requires the option "general.fetch-skins-names" to be enabled.
+  skins-restorer: false
+
+- Fixed: use {target} placeholder instead of {object} for ally and neutralization already sent message
+- Fixed: Mob despawn task error on Folia
+- Fixed: Landblock not removed when chunk unloaded
+- Fixed: Wrong default item type for entry_chunk_position
