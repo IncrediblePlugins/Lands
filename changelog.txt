@@ -1,1 +1,3 @@
-+ Added: item-model support to GUI. See wiki
++ Added: Support for 1.21.9
++ Added: Use dialogs for text etc. input instead of chat (conversations)
++ Added: _dialogs.yml locale file for dialogs
