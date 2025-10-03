@@ -1,2 +1,7 @@
-- Fixed: Happy Ghast falling under interact_general flag instead of vehicle_use flag
-- Fixed: Vanish issue with PremiumVanish and SuperVanish
++ Added: [Suggestion] Disable fly when combat-tag is enabled:
+      # Disable fly during combat?
+      disable-fly: true
+
++ Added: [Suggestion] %lands_land_role_type% PlaceholderAPI placeholder. See wiki.
++ Changed: PlaceholderAPI placeholder %lands_land_role% to %lands_land_role_name%
++ Changed: PlaceholderAPI placeholder %lands_land_role_color% to %lands_land_role_name_color%

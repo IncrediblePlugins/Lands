@@ -558,6 +558,9 @@ land:
       death-remove: true
       # Deny teleportation if player has active combat tag?
       deny-teleport: true
+      # Disable fly during combat?
+      disable-fly: true
+
     # Should players, which are members in a common land, be able to fight in wilderness?
     # NOTE: This option requires server restart / reload.
     ally-wilderness: true
