@@ -1,3 +1,2 @@
-+ Added: Support for 1.21.9
-+ Added: Use dialogs for text etc. input instead of chat (conversations)
-+ Added: _dialogs.yml locale file for dialogs
+- Fixed: Happy Ghast falling under interact_general flag instead of vehicle_use flag
+- Fixed: Vanish issue with PremiumVanish and SuperVanish
