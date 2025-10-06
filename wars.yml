@@ -19,10 +19,10 @@ declaration:
 
   # Define when a declaration can be sent.
   send-time:
-    # Day of the week. 0 is Monday and 6 is Sunday.
-    # Example: 0,2,3 -> Allows a declaration be sent on Monday, Wednesday and Thursday.
-    # Default: 0-6 -> Allows all days.
-    days_range: "0-6"
+    # Day of the week. 1 is Monday and 7 is Sunday.
+    # Example: 1,2,3 -> Allows a declaration be sent on Monday, Wednesday and Thursday.
+    # Default: 1-7 -> Allows all days.
+    days_range: "1-7"
     # Hours of the above defined days during which a declaration can be sent.
     hours_range: "0-23"
 
@@ -89,6 +89,9 @@ capture:
   max: 3
   # Only allow the team to place a capture flag every period.
   place-cooldown_time: 10m
+  # Should only be players with the MANAGE_WAR flag be able to place capture flags for their land?
+  # If enabled, land owners can restrict who can place flags using the role system.
+  restrict-placement: false
   # Set the chunks radius that will be affected by the capture flag. Invaders will start capturing once they enter the claimed area.
   # If set to 1, only the chunk in which the capture flag is placed in, is affected.
   # NOTE: This shouldn't be greater than your servers view distance.

@@ -1,7 +1,16 @@
-+ Added: [Suggestion] Disable fly when combat-tag is enabled:
-      # Disable fly during combat?
-      disable-fly: true
+- Fixed: Cant enable disable-fly for combat tag
+- Fixed: Invalid default days range for war declaration 1-7
 
-+ Added: [Suggestion] %lands_land_role_type% PlaceholderAPI placeholder. See wiki.
-+ Changed: PlaceholderAPI placeholder %lands_land_role% to %lands_land_role_name%
-+ Changed: PlaceholderAPI placeholder %lands_land_role_color% to %lands_land_role_name_color%
+  # Define when a declaration can be sent.
+  send-time:
+    # Day of the week. 1 is Monday and 7 is Sunday.
+    # Example: 1,2,3 -> Allows a declaration be sent on Monday, Wednesday and Thursday.
+    # Default: 1-7 -> Allows all days.
+    days_range: "1-7"
+    # Hours of the above defined days during which a declaration can be sent.
+    hours_range: "0-23"
+
++ Added: [Suggestion] You can now restrict who can place capture flags
+  # Should only be players with the MANAGE_WAR flag be able to place capture flags for their land?
+  # If enabled, land owners can restrict who can place flags using the role system.
+  restrict-placement: false

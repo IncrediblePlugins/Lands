@@ -548,7 +548,7 @@ land:
       # If a player attacks another player, they will by tagged for x (timeunit) so that, regardless of land settings,
       # other players can attack them.
       # 0s = disabled
-      tag_time: 0s
+      tag_time: 10s
       # Configure worlds in which combat tags should be enabled.
       # NOTE: If empty, it's enabled in all claim worlds from claim-worlds_list.
       tag-worlds_list: [ ]
