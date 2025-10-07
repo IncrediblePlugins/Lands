@@ -1,16 +1,3 @@
-- Fixed: Cant enable disable-fly for combat tag
-- Fixed: Invalid default days range for war declaration 1-7
+It is recommended that you take a backup of your database before updating.
 
-  # Define when a declaration can be sent.
-  send-time:
-    # Day of the week. 1 is Monday and 7 is Sunday.
-    # Example: 1,2,3 -> Allows a declaration be sent on Monday, Wednesday and Thursday.
-    # Default: 1-7 -> Allows all days.
-    days_range: "1-7"
-    # Hours of the above defined days during which a declaration can be sent.
-    hours_range: "0-23"
-
-+ Added: [Suggestion] You can now restrict who can place capture flags
-  # Should only be players with the MANAGE_WAR flag be able to place capture flags for their land?
-  # If enabled, land owners can restrict who can place flags using the role system.
-  restrict-placement: false
++ Changed: How item storage and land icons are saved to comply for new changes
