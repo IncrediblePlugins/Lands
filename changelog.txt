@@ -1,3 +1,1 @@
-It is recommended that you take a backup of your database before updating.
-
-+ Changed: How item storage and land icons are saved to comply for new changes
+- Fixed: Storage saving error in some cases
