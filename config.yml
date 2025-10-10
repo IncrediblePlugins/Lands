@@ -350,6 +350,7 @@ land:
     enabled_2: true
     # Should claim attempts that would violate the force-near restrictions be treated as new lands?
     treat-as-new: true
+
   # Chunk claiming by placing a special claim block.
   # You can give claimblocks by executing the command /lands admin player <player> give claimblock [amount]
   # If you don't want your players to claim via command, just
