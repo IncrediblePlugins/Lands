@@ -1,2 +1,1 @@
-+ Improved: Some default locale entries regarding /lands trust and /lands untrust to make it more intuitive
-- Fixed: nation and land *members* balance placeholderAPI
+- Fixed: Missing chat locale entry: wars.end.surrender
