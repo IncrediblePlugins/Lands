@@ -1,1 +1,1 @@
-- Fixed: Missing chat locale entry: wars.end.surrender
++ Added: [API] to get all areas inside a claimed chunk Container#getAreasInChunk
