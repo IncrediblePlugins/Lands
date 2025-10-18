@@ -1,1 +1,2 @@
-+ Added: [API] to get all areas inside a claimed chunk Container#getAreasInChunk
+- Fixed: BlueMap integration
++ Improved: /wars admin start command

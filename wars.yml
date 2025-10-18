@@ -114,9 +114,16 @@ capture:
     min: 30
     max_2: 127
 
+
+# Sound configuration
+# You can find the sound names by using the /playsound command ingame.
+# Format: sound,volume,pitch
+# The volume and pitch parameter are optional. They allow you to control how the sound is played.
+# Disabling a sound: Just set it to ''
 sounds:
   capture:
     place_sound: 'block.bell.use'
+
 
 # War status message interval. This message appears while the war is running. This is very useful to inform players, which might have been offline for some time, that their land is participating in a war.
 status-interval_time: 15m
