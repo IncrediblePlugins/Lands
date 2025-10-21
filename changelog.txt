@@ -1,2 +1,1 @@
-- Fixed: BlueMap integration
-+ Improved: /wars admin start command
++ Added: Import claims from SimpleClaimSystem: /lands admin import simpleclaimsystem
