@@ -1,1 +1,1 @@
-+ Added: Import claims from SimpleClaimSystem: /lands admin import simpleclaimsystem
+- Fixed: Rare issue with land expiration getting last play time of online player wrong
