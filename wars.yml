@@ -25,6 +25,7 @@ declaration:
     days_range: "1-7"
     # Hours of the above defined days during which a declaration can be sent.
     # Uses 24 hour format. Default is 0-23 which includes any hour of the day.
+    # Another example: 20-23;0-4 -> 8pm till 4am
     hours_range: "0-23"
 
   # How much time do you want to give the defender lands for war preparation, before it will start?
