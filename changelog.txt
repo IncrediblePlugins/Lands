@@ -1,1 +1,3 @@
-- Fixed: Rare issue with land expiration getting last play time of online player wrong
+- Fixed: Selection or /lands unclaim radius returning message that no chunks were unclaimed despite chunks being unclaimed
+- Fixed: Webmap not removing markers if all chunks were unclaimed at once (only with multi world setup)
+- Fixed: Not removing markers with squaremap if all chunks unclaimed

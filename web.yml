@@ -11,9 +11,9 @@ map:
     # If you want your players activity to be more anonymous, you can specify an update interval.
     # This helps to prevent enemies spying dynmap to track player activity.
     # Time units: d, h, m, s -> Example: 1h
-    # Default: -1 = use default handling defined by Lands (recommended)
+    # Default: 0 = use default handling defined by Lands (recommended)
     # This option requires server reload / restart.
-    update_time: -1
+    update_time: 0
     land:
       # Should admin lands (/lands admin menu) be displayed?
       show-admin: true
