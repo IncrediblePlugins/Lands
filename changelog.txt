@@ -1,1 +1,3 @@
 + Added: [Suggestion] lands_nation_balance_lands and lands_nation_balance_lands_short PlaceholderAPI placeholders. See wiki for more info
++ Added: FancyHolograms support
+Please note that FancyHolograms does not support clickable holograms via their developer API. Therefore they can't be used for rentals.
