@@ -1,2 +1,1 @@
-- Fixed: Yaw and pitch not applied when teleporting to area spawn
-- Fixed: Handle error if server fails to serialize or deserialize item
++ Added: [Suggestion] lands_nation_balance_lands and lands_nation_balance_lands_short PlaceholderAPI placeholders. See wiki for more info
