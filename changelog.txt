@@ -1,3 +1,1 @@
-+ Added: Dont allow claiming chunks outside the worldborder using claim radius or claim map
-+ Added: Protection against boats being used to destroy item frames etc.
-- Fixed: Error when editing land enter message in new dialog menu
++ Added: wild.end message that is shown when a player tries to use random teleportation in the end
