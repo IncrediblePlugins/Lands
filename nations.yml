@@ -44,6 +44,21 @@ nation:
       # Bypass permission: lands.bypass.cooldown.rename_nation
       cooldown_rename_time: 1d
 
+  # Nation tag options
+  tag:
+    # Maximum nation tag length
+    # The maximum possible length is 80 when using MySQL and 32 when using SQLite (including color codes).
+    length_2: 4
+    # Should colors be allowed in nation tags?
+    # Disabling this option at a later time, will also remove color from existing nations.
+    color_2: false
+    # Should nation tags be allowed to include formatting, such as bold, underlined etc.?
+    format_2: false
+    # Should numbers be allowed in nation tags?
+    numbers_2: false
+    # Allow only latin letters for nation tags?
+    # If enabled: They won't be able to use chinese letters etc.
+    only-latin_2: false
 
 # Land related settings
 land:

@@ -319,6 +319,22 @@ land:
       # Bypass permission: lands.bypass.cooldown.rename_land
       cooldown_rename_time: 1d
 
+  # Land tag options
+  tag:
+    # Maximum land tag length
+    # The maximum possible length is 80 when using MySQL and 32 when using SQLite (including color codes).
+    length_3: 4
+    # Should colors be allowed in land tags?
+    # Disabling this option at a later time, will also remove color from existing lands.
+    color_6: false
+    # Should land tags be allowed to include formatting, such as bold, underlined etc.?
+    format_2: false
+    # Should numbers be allowed in land tags?
+    numbers_2: false
+    # Allow only latin letters for land tags?
+    # If enabled: They won't be able to use chinese letters etc.
+    only-latin_2: false
+
   # Land enter title options
   title:
     # Should players be allowed to use PlaceholderAPI placeholders, in the land title?
