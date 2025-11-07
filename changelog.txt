@@ -1,21 +1,4 @@
-+ Added: Lands can now set tags for their land. A tag is the short version of the land name. Tags for nations will be added soon as well.
-Please review the default tag settings in config.yml:
-  # Land tag options
-  tag:
-    # Maximum land tag length
-    # The maximum possible length is 80 when using MySQL and 32 when using SQLite (including color codes).
-    length_3: 4
-    # Should colors be allowed in land tags?
-    # Disabling this option at a later time, will also remove color from existing lands.
-    color_6: false
-    # Should land tags be allowed to include formatting, such as bold, underlined etc.?
-    format_2: false
-    # Should numbers be allowed in land tags?
-    numbers_2: false
-    # Allow only latin letters for land tags?
-    # If enabled: They won't be able to use chinese letters etc.
-    only-latin_2: false
-
-+ Added: Support for world resets and still keeping spawn locations in place and not adding another world to db if the name is the same as before
-+ Added: wild.end message that is shown when a player tries to use random teleportation in the end
-+ Changed: Parse PlaceholderAPI placeholders for sender of chat message, not recipient (/lands chat)
+- Fixed: PlaceholderAPI tag placeholders behaviour with no tag set
+- Fixed: Return error message if land tries to set new name that is the same as the current one
+- Fixed: Nation save error in some cases
+- Fixed: Claims not updating on BlueMap, if BlueMap map is named differently than the claim world
