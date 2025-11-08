@@ -1,3 +1,2 @@
-+ Added: <tag> argument to the create command: /lands create <name> <tag>
-If the server allows spaces in land names, the arguments will be in reversed order: /lands create <tag> <name>
-+ Changed: Send message about reached max amount of areas at /lands assign instead of area not found message
+- Fixed: Issue where if you deleted a claimworld and created a new world with the same name, the claims wouldn't load to the new world
+This behaviour was intentional in the past, but it seems like most admins expect the claims to load even if the world was reset
