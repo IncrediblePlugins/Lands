@@ -294,6 +294,7 @@ land:
     # Should spaces be allowed in land names?
     # Spaces will be replaced with an underscore, when being displayed as a command parameter.
     # Disabling this option at a later time, will also remove spaces from existing lands.
+    # NOTE: This setting required server reload / restart.
     spaces: false
     # Maximum land name length
     # The maximum possible length is 80 when using MySQL and 32 when using SQLite (including color codes).

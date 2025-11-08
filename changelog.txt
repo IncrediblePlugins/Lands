@@ -1,4 +1,3 @@
-- Fixed: PlaceholderAPI tag placeholders behaviour with no tag set
-- Fixed: Return error message if land tries to set new name that is the same as the current one
-- Fixed: Nation save error in some cases
-- Fixed: Claims not updating on BlueMap, if BlueMap map is named differently than the claim world
++ Added: <tag> argument to the create command: /lands create <name> <tag>
+If the server allows spaces in land names, the arguments will be in reversed order: /lands create <tag> <name>
++ Changed: Send message about reached max amount of areas at /lands assign instead of area not found message
