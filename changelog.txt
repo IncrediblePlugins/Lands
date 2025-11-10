@@ -1,2 +1,2 @@
-- Fixed: Issue where if you deleted a claimworld and created a new world with the same name, the claims wouldn't load to the new world
-This behaviour was intentional in the past, but it seems like most admins expect the claims to load even if the world was reset
++ Added: [Suggestion] Option to disable land tag or disable force setting a tag at /lands create
++ Added: Seperate tag item to the various options menu
