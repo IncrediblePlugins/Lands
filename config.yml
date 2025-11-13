@@ -487,7 +487,7 @@ land:
     #   world:false -> if world isn't part of claim-worlds_list, flight will be disabled in this world.
     #   world:true -> if world isn't part of claim-worlds_list, flight won't be disabled when players enter this world.
     #   If world is part of claim-worlds_list, the flight control will be controlled via the FLY flag in /lands admin menu or the menu of claims.
-    flight-control-worlds_list: []
+    flight-control-worlds_list: [ ]
     # Set the fly deactivation delay if a player is not allowed to fly at this position.
     # Timeunit: Seconds
     disable-delay: 3
@@ -527,12 +527,13 @@ land:
     #  - '30m:14d'
     #  - '12h:30d'
     #  - '1d:60d'
-    #  - '30d:80d'
-    #  - '36525d:365d'
+    #  - '15d:80d'
+    #  - '30d:never' <- Using "never" in the last entry means that players with more than 15 days playtime will never be considered as inactive.
     #
-    # '15m:7d' and '30m:14d' means that land owners that have less than 15 minutes of playtime, will be considered inactive, if they're offline since at least 7 days.
+    # '15m:7d' and '30m:14d' means that land owners that have less or equal 15 minutes of playtime, will be considered inactive, if they're offline since at least 7 days.
     # Owners that have more than 15 minutes of playtime and less than 30 minutes will be considered as inactive, if they're offline since at least 14 days.
-    # And so on...
+    # If a owner has more playtime than all the entries, it will use the entry with the highest playtime and compare the offline time against that entry.
+    # '30d:never' means that the land will never be deleted or the owner changed.
     # Inactive land owners get, depending on your configuration, either untrusted and a new owner is set or their land get's deleted.
     # An empty list disables this option.
     owner_list:
@@ -540,11 +541,12 @@ land:
       - '30m:14d'
       - '12h:30d'
       - '1d:60d'
-      - '30d:80d'
-      - '36525d:365d'
+      - '15d:80d'
+      - '30d:never'
 
     # How long does a land member need to be offline, to be considered inactive?
     # Inactive land members get untrusted.
+    # This section follows the same pattern as the owner_list above.
     member_list: [ ]
 
     # Should an inactive owner be replaced by a land member?

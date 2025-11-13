@@ -1,2 +1,1 @@
-+ Added: [Suggestion] Option to disable land tag or disable force setting a tag at /lands create
-+ Added: Seperate tag item to the various options menu
++ Changed: Instead of ignoring a offline player if his playtime is higher than all expiration entries in the config, take the highest entry instead and check against its offline time.
