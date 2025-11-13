@@ -1,1 +1,4 @@
-+ Changed: Instead of ignoring a offline player if his playtime is higher than all expiration entries in the config, take the highest entry instead and check against its offline time.
+- Fixed: Issue where not the correct (less) amount of cashback was given at chunk unclaim
+- Fixed: Root drop from rooted dirt if player has no acccess
+- Fixed: Area spawn could teleport into block if block was dirt path
+- Fixed: Same issue for land spawn in rare cases

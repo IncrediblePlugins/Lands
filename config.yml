@@ -376,10 +376,8 @@ land:
 
   # Chunk claiming by placing a special claim block.
   # You can give claimblocks by executing the command /lands admin player <player> give claimblock [amount]
-  # If you don't want your players to claim via command, just
-  # don't give them lands.command.claim.
-  # If you don't want your players to claim with claimblocks,
-  # just don't give them claimblocks.
+  # If you don't want your players to claim via command, just don't give them lands.command.claim.
+  # If you don't want your players to claim with claimblocks, just don't give them claimblocks.
   claimblock:
     # Should only the owner of the claim block be able to use it?
     # NOTE: If disabled, players could give claimblocks to other players which then can use these claimblocks too. Also if enabled again in the future,
