@@ -1,4 +1,16 @@
-- Fixed: Issue where not the correct (less) amount of cashback was given at chunk unclaim
-- Fixed: Root drop from rooted dirt if player has no acccess
-- Fixed: Area spawn could teleport into block if block was dirt path
-- Fixed: Same issue for land spawn in rare cases
++ Added: [Suggestion] You can now apply a item model to all items of a specific type in the GUI.
+
+# This section lets you define item model properties for items that are of a specific material.
+# The follwong propierties will be applied to all items in all menus, IF their material is the same: item-model, hide-tooltip, tooltip-style
+# To add your own entries add a section called "custom" to the "items" section and add your entries in that section.
+common_item-model:
+  items:
+    default:
+      # This is just an exmaple that displays each player head as a 2D head model of the 3rd party plugin Nexo.
+      player_head:
+        # enabled: false disables this entry
+        enabled: false
+        material: 'PLAYER_HEAD'
+        item-model: "nexo:2d_player_head"
+
++ Added: [Suggestion] Automatically hide invite and membership items in GUI, if invites are disabled in the config.
