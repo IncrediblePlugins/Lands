@@ -1,9 +1,2 @@
-+ Added: [Suggestion] Automatically disable taxes item in role menu if taxes are disabled in config
-+ Added: [Suggestion] Option to seperate claim command permissions
-# Command options
-command:
-  # Add seperate permissions for specific subcommands.
-  inherit-perm:
-    # By default the lands.command.claim command also gives access to claim subcommands, such as /lands claim auto etc.
-    # By disabling this option each subcommand gets their own permission node: lands.command.claim.auto etc.
-    claim_2: true
+- Fixed: Possible issue with world ULID during migration from v1 to v2 if world no longer exists
+- Fixed: Floodgate taxes_never item doesn't exist
