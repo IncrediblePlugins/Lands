@@ -1,2 +1,3 @@
-- Fixed: Possible issue with world ULID during migration from v1 to v2 if world no longer exists
-- Fixed: Floodgate taxes_never item doesn't exist
++ Added: [Suggestion] Import claims from the HuskClaims plugin using the /lands admin import HuskClaims command.
++ Added: [Suggestion] If just /lands create without any arguments is executed, open a dialog menu to input name and tag (if enabled). Also displays cost and initial claimed chunks.
+    This will also be added for nations, when tags have been added to nations.
