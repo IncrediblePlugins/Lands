@@ -325,9 +325,6 @@ land:
     # Enable tags?
     # NOTE: This setting required server reload / restart.
     enabled_8: true
-    # Force tags to be set when players create a land using /lands create?
-    # NOTE: This setting required server reload / restart.
-    force-creation: false
     # Maximum land tag length
     # The maximum possible length is 80 when using MySQL and 32 when using SQLite (including color codes).
     length_3: 4
