@@ -1,3 +1,6 @@
-- Removed: Option for name tag force set on land creation: If you're on 1.21.9+ this is no longer needed since a dialog menu will open
-instead at /lands create. If tags are enabled this dialog menu will be opened always. If tags are disabled, it will only be opened if the create command is executed without any argument: /lands create
-- Fixed: Bodies with items not appearing for bedrock players in dialog menu (form)
+- Fixed: Nation effects might not apply in combination with some 3rd party plugins
++ Added: Option to allow specific MythicMobs to bypass the animal and monster spawn flag:
+  # Options for the 3rd party plugin MythicMobs.
+  mythicmobs:
+    # Here you can add mob IDs from the MythicMobs plugin, that should bypass the animal and monster spawn flag.
+    bypass-spawn-flags_list: []
