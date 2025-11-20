@@ -1,6 +1,6 @@
-- Fixed: Nation effects might not apply in combination with some 3rd party plugins
-+ Added: Option to allow specific MythicMobs to bypass the animal and monster spawn flag:
-  # Options for the 3rd party plugin MythicMobs.
-  mythicmobs:
-    # Here you can add mob IDs from the MythicMobs plugin, that should bypass the animal and monster spawn flag.
-    bypass-spawn-flags_list: []
++ Added: Various options menu for nations. Accessible from the nation menu.
++ Added: Tags for nations. Tags can be set in the new various options menu.
++ Added: Nation creation dialog menu
++ Added: Nations can now have icons for the /nations list menu etc.
++ Added: A tag can't be the same as any land name
++ Added: A name can't be the same as any land tag

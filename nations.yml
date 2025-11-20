@@ -46,6 +46,9 @@ nation:
 
   # Nation tag options
   tag:
+    # Enable tags?
+    # NOTE: This setting required server reload / restart.
+    enabled_2: true
     # Maximum nation tag length
     # The maximum possible length is 80 when using MySQL and 32 when using SQLite (including color codes).
     length_2: 4
