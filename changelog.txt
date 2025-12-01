@@ -1,6 +1,5 @@
-+ Added: Various options menu for nations. Accessible from the nation menu.
-+ Added: Tags for nations. Tags can be set in the new various options menu.
-+ Added: Nation creation dialog menu
-+ Added: Nations can now have icons for the /nations list menu etc.
-+ Added: A tag can't be the same as any land name
-+ Added: A name can't be the same as any land tag
++ Added: Save player head skins to the database to reduce amount of calls to Mojang API
+- Fixed: MythicMobs bypass spawn list
+- Fixed: Nation role flag not applying to sub areas of nation capital
+- Fixed: /lands wild teleporting into or near claimed land in some cases
+- Fixed: Capture flag getting removed after server restart
