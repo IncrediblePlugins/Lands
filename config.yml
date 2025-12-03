@@ -1141,6 +1141,7 @@ entities:
   # You can specify here which entities should be considered an animal or monster.
   # This affects all parts of the plugin, that involves these entity groups.
   # If the list contains "default": New entities of future updates, that are part of this category will be added automatically.
+  # You can remove specific entities from the "default" list by adding both "default" and "-entity_type" to the list. Note the minus before the entity type.
   animals_list:
     - 'default'
   monsters_list:

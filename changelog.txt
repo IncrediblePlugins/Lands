@@ -1,5 +1,2 @@
-+ Added: Save player head skins to the database to reduce amount of calls to Mojang API
-- Fixed: MythicMobs bypass spawn list
-- Fixed: Nation role flag not applying to sub areas of nation capital
-- Fixed: /lands wild teleporting into or near claimed land in some cases
-- Fixed: Capture flag getting removed after server restart
++ Added: You can now import lands and nations from KingdomsX
+- Fixed: Radius and selection unclaim aborting due to wrong API event value
