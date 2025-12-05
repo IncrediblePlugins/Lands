@@ -1,2 +1,3 @@
-+ Added: You can now import lands and nations from KingdomsX
-- Fixed: Radius and selection unclaim aborting due to wrong API event value
+- Fixed: Missing GUI item: object_OWNER_land
+- Fixed: Retal list GUI error: expected rent block
+- Fixed: Error while trying to set spawn in rase cases via menu
