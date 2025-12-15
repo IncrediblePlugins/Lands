@@ -179,6 +179,7 @@ land:
         - ITEM_PICKUP
 
     # This role can be deleted, in case you don't want it.
+    # We recommend keeping it, if you have nations enabled and want players from the same nation being able to give them access to specific flags.
     nation:
       name: '&9&lNation'
       # The icon supports texture values (example: https://minecraft-heads.com/) and normal material values.

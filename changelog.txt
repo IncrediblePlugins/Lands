@@ -1,3 +1,1 @@
-- Fixed: Missing GUI item: object_OWNER_land
-- Fixed: Retal list GUI error: expected rent block
-- Fixed: Error while trying to set spawn in rase cases via menu
+- Fixed: Error when removing the nation role from roles.yml and having nations enabled
