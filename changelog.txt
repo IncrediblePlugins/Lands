@@ -1,1 +1,2 @@
-- Fixed: Error when removing the nation role from roles.yml and having nations enabled
++ Added: [Suggestion] [API] LandPlayer#getLimitation and LandPlayer#modifyLimitation
+- Fixed: Error while removing piston block or dropper
