@@ -1,2 +1,3 @@
 + Added: [Suggestion] [API] LandPlayer#getLimitation and LandPlayer#modifyLimitation
+- Fixed: Players can no longer place minecarts in the wilderness, push them inside and steal items
 - Fixed: Error while removing piston block or dropper
