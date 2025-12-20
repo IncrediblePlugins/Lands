@@ -1098,7 +1098,9 @@ integration:
   # Options for the 3rd party plugin MythicMobs.
   mythicmobs:
     # Here you can add mob IDs from the MythicMobs plugin, that should bypass the animal and monster spawn flag.
-    bypass-spawn-flags_list: []
+    # The wildcard "*" adds all mobs of MythicMobs to this list.
+    bypass-spawn-flags_list:
+      - "*"
 
   # Should skins be fetched from the 3rd party plugin SkinsRestorer.
   # This option requires the option "general.fetch-skins-names" to be enabled.

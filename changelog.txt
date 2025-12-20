@@ -1,3 +1,7 @@
-+ Added: [Suggestion] [API] LandPlayer#getLimitation and LandPlayer#modifyLimitation
-- Fixed: Players can no longer place minecarts in the wilderness, push them inside and steal items
-- Fixed: Error while removing piston block or dropper
++ Added: [Suggestion] You can now use wildcard "*" to add all MythicMobs mobs to the bypass spawn flags list in config:
+    # Here you can add mob IDs from the MythicMobs plugin, that should bypass the animal and monster spawn flag.
+    # The wildcard "*" adds all mobs of MythicMobs to this list.
+    bypass-spawn-flags_list:
+      - "*"
+
+- Fixed: Error on join with playerprofile on spigot
