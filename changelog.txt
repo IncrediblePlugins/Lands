@@ -1,7 +1,11 @@
-+ Added: [Suggestion] You can now use wildcard "*" to add all MythicMobs mobs to the bypass spawn flags list in config:
-    # Here you can add mob IDs from the MythicMobs plugin, that should bypass the animal and monster spawn flag.
-    # The wildcard "*" adds all mobs of MythicMobs to this list.
-    bypass-spawn-flags_list:
-      - "*"
++ Added: [Suggestion] You can now search for lands & nations by their tag in /lands list and /nations list.
+        refresh_search:
+          lore: '&8✖ &7Search by name or tag.[newline]   &8• &7Search by: {mode}[newline]   &8• &7Current search: {search}[newline][newline]&8✖ &3DROP[newline]   &7Reset search'
+          name: '&6&lSearch'
 
-- Fixed: Error on join with playerprofile on spigot
++ Added: [Suggestion] You can now execute commands when a player with an combat tag quits:
+      # Execute commands when a player logs out with an active combat tag.
+      # Player name placeholder: {player}
+      quit-cmds: [ ]
+
+- Fixed: general.combat-logout message not found

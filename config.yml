@@ -575,6 +575,9 @@ land:
       tag-worlds_list: [ ]
       # Should a player be killed, if they log out while having a combat tag set on them?
       quit-kill: false
+      # Execute commands when a player logs out with an active combat tag.
+      # Player name placeholder: {player}
+      quit-cmds_list: [ ]
       # Remove the combat tag upon death?
       death-remove: true
       # Deny teleportation if player has active combat tag?
