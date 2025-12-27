@@ -1,11 +1,3 @@
-+ Added: [Suggestion] You can now search for lands & nations by their tag in /lands list and /nations list.
-        refresh_search:
-          lore: '&8✖ &7Search by name or tag.[newline]   &8• &7Search by: {mode}[newline]   &8• &7Current search: {search}[newline][newline]&8✖ &3DROP[newline]   &7Reset search'
-          name: '&6&lSearch'
-
-+ Added: [Suggestion] You can now execute commands when a player with an combat tag quits:
-      # Execute commands when a player logs out with an active combat tag.
-      # Player name placeholder: {player}
-      quit-cmds: [ ]
-
-- Fixed: general.combat-logout message not found
++ Added: fetch-skins-names also disables skin update at player join
+- Fixed: Item bundle not disabling selection mode
+- Fixed: Help messages for give permission command
