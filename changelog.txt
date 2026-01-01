@@ -1,3 +1,8 @@
-+ Added: fetch-skins-names also disables skin update at player join
-- Fixed: Item bundle not disabling selection mode
-- Fixed: Help messages for give permission command
++ Added: [Suggestion] You can now configure land creation to don't claim any chunks
+    # Claim a radius of chunks at land creation. These initial claims won't cost the land anything.
+    # NOTE: 0 = only the chunk in which the player currently stands.
+    # NOTE: -1 = no chunks will be claimed
+    # NOTE: This value can't be higher than your servers view distance.
+    claim-radius: 1
+
+- Fixed: Bedrock list menus always only having one item per page

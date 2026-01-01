@@ -286,6 +286,7 @@ land:
 
     # Claim a radius of chunks at land creation. These initial claims won't cost the land anything.
     # NOTE: 0 = only the chunk in which the player currently stands.
+    # NOTE: -1 = no chunks will be claimed
     # NOTE: This value can't be higher than your servers view distance.
     claim-radius: 1
 
@@ -552,7 +553,7 @@ land:
     # NOTE: It is recommended to keep this disabled. If this is enabled and you delete the playerdata folder in your primary world, it MAY DELETE ALL AFFECTED LANDS depending on your expiration settings.
     delete-invalid: false
     # Should lands, which have no claims, be deleted if they're at least x days old?
-    # You can disable this option by using 0.
+    # You can disable this option by using 0. This option will only be active if "land.creation.claim-radius" is larger than -1.
     no-claims: 0
 
   # Should players keep their inventory, if they die inside a land?
