@@ -1,3 +1,2 @@
-+ Improved: Estimate shooting distance of dispenser by item type
-+ Improved: Mod blocks are now fully protected on Arclight and Mohist
-- Fixed: Startup issue on Arclight and Mohist (Mod platforms)
+- Fixed: Invalid slots error when loading GUI entries with multiple slot range entries
+- Fixed: Capture flag loading and ticking
