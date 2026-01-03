@@ -1,2 +1,1 @@
-- Fixed: Invalid slots error when loading GUI entries with multiple slot range entries
-- Fixed: Capture flag loading and ticking
+- Fixed: Conversation menu re open should refresh list menu
