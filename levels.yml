@@ -25,6 +25,9 @@ land:
         chunks:
           description: '&7{value} claims'
           value: 0
+        members:
+          description: '&7{value} members'
+          value: 0
         # The upkeep attribute will higher or lower (= negative value) their upkeep costs by a given value.
         # This attribute is not active, if the land is part of a nation.
         upkeep:
@@ -82,6 +85,9 @@ land:
       attributes:
         chunks:
           description: '&7{value} claims'
+          value: 1
+        members:
+          description: '&7{value} members'
           value: 1
         upkeep:
           description: '&7{value}% upkeep cost'
@@ -148,6 +154,9 @@ land:
         chunks:
           description: '&7{value} claims'
           value: 2
+        members:
+          description: '&7{value} members'
+          value: 2
         upkeep:
           description: '&7{value}% upkeep cost'
           value: 10
@@ -203,6 +212,9 @@ land:
         chunks:
           description: '&7{value} claims'
           value: 4
+        members:
+          description: '&7{value} members'
+          value: 3
         upkeep:
           description: '&7{value}% upkeep cost'
           value: 25
@@ -258,6 +270,9 @@ land:
         chunks:
           description: '&7{value} claims'
           value: 8
+        members:
+          description: '&7{value} members'
+          value: 4
         upkeep:
           description: '&7{value}% upkeep cost'
           value: 30
@@ -279,6 +294,9 @@ nation:
       attributes:
         chunks:
           description: '&7{value} claims'
+          value: 0
+        lands:
+          description: '&7{value} lands'
           value: 0
         upkeep:
           description: '&7{value}% upkeep cost'
@@ -351,6 +369,9 @@ nation:
         chunks:
           description: '&7{value} claims'
           value: 20
+        lands:
+          description: '&7{value} lands'
+          value: 1
         # Modify upkeep by x percent. This also supports negative values.
         # The nation pays the upkeep to the server.
         upkeep:
@@ -440,6 +461,9 @@ nation:
         chunks:
           description: '&7{value} claims'
           value: 35
+        lands:
+          description: '&7{value} lands'
+          value: 3
         upkeep:
           description: '&7{value}% upkeep cost'
           value: 35
