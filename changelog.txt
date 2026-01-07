@@ -1,1 +1,5 @@
-- Fixed: Conversation menu re open should refresh list menu
++ Added: members attribute to levels.yml
+- Fixed: Fly disable counter going down way to fast
+- Fixed: Mainblock not getting removed correctly
+- Fixed: Mainblock not being able to be placed via menu in some cases
+- Fixed: /lands spawn <land> <area> <player> (ADMIN) command
