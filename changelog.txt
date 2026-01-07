@@ -2,7 +2,7 @@
 See the default levels.yml for reference: https://github.com/IncrediblePlugins/Lands/blob/main/levels.yml
 
 + Changed: Reworked levels developer API. If you have 3rd party plugins that register custom levels or level requirements,
-they must update to the new level API
+they must update to the new level API. Wiki: https://wiki.incredibleplugins.com/lands/developers/levels
 
 - Fixed: Fly disable counter going down way to fast
 - Fixed: Mainblock not getting removed correctly
