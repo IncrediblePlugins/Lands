@@ -1,10 +1,2 @@
-+ Added: members attribute to levels.yml
-See the default levels.yml for reference: https://github.com/IncrediblePlugins/Lands/blob/main/levels.yml
-
-+ Changed: Reworked levels developer API. If you have 3rd party plugins that register custom levels or level requirements,
-they must update to the new level API. Wiki: https://wiki.incredibleplugins.com/lands/developers/levels
-
-- Fixed: Fly disable counter going down way to fast
-- Fixed: Mainblock not getting removed correctly
-- Fixed: Mainblock not being able to be placed via menu in some cases
-- Fixed: /lands spawn <land> <area> <player> (ADMIN) command
++ Added: Copper golem natural flag to allow copper golems from other areas of the land
+- Fixed: /lands player <player> not working in some cases
