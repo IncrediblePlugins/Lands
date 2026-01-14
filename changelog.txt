@@ -1,2 +1,1 @@
-+ Added: Copper golem natural flag to allow copper golems from other areas of the land
-- Fixed: /lands player <player> not working in some cases
++ Improved: Disable snapshots for minecart grief protection
