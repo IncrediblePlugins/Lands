@@ -1,0 +1,31 @@
+# In this file you can configure each players limits.
+# A player can only have one pack. Every time a player joins the server the pack
+# gets evaluated. The last pack, that they have the required permission for, it taken.
+packs:
+  default:
+    values:
+      # Lands they can own.
+      own_lands: 1
+      # How many chunks they can claim in total.
+      land_chunks: 100
+      # How many members they can trust to each land they own.
+      land_members: 20
+      # In how many parts each land they own can be split into.
+      land_parts: 1
+      # How many areas they can create for each land they own.
+      land_areas: 50
+      # In how many lands they can be trusted besides lands they own.
+      trusted_lands: 1
+      # How many areas they can rent in each land they're trusted.
+      rentals: 1
+  member:
+    # Required permission to get this pack.
+    permission: "group.member"
+    values:
+      own_lands: 1
+      land_chunks: 200
+      land_members: 20
+      land_parts: 1
+      land_areas: 50
+      trusted_lands: 1
+      rentals: 1
