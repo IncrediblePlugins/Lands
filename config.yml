@@ -342,6 +342,10 @@ land:
 
   # Land enter title options
   title:
+    # Display a separate (actionbar) message with the curent land or nation for the whole time a player is inside a land or nation?
+    # The message disappears if the player goes into wilderness or stops moving.
+    # NOTE: This setting required server reload / restart.
+    permanent-msg: false
     # Should players be allowed to use PlaceholderAPI placeholders, in the land title?
     placeholderapi:
       # Should players be allowed to use PlaceholderAPI placeholders provided by Lands?
