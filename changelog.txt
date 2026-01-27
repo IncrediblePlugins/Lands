@@ -1,5 +1,3 @@
-+ Added: [Suggestion] Option to permanently display a actionbar message when inside a land
-    # Display a separate (actionbar) message with the curent land or nation for the whole time a player is inside a land or nation?
-    # The message disappears if the player goes into wilderness or stops moving.
-    # NOTE: This setting required server reload / restart.
-    permanent-msg: false
+- Fixed: Throwing enchantement bottles at players shouldn't be disallowed or trigger a combat tag
++ Changed: Also apply tooltip-style to INHERIT player heads in GUI
+- Fixed: Inherit tooltip style and item model correctly from common item
