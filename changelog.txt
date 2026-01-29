@@ -1,3 +1,2 @@
-- Fixed: Throwing enchantement bottles at players shouldn't be disallowed or trigger a combat tag
-+ Changed: Also apply tooltip-style to INHERIT player heads in GUI
-- Fixed: Inherit tooltip style and item model correctly from common item
+- Fixed: Failed to load claim data if wrong owner set in area
+- Fixed: Land expiration skipped highest role for owner replace
