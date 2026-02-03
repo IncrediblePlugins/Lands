@@ -10,6 +10,9 @@ land:
   categories:
     members:
       enabled: true
+      # Allow land owners to enable a option to automatically accept new membership requests.
+      # If set to false, the option is also disabled for existing lands, when the server is restarted.
+      allow-auto-accept: true
       name: '&eLooking for Members ☺'
       description:
         - '&7This land is actively searching'

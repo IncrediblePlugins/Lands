@@ -1,2 +1,10 @@
-- Fixed: Failed to load claim data if wrong owner set in area
-- Fixed: Land expiration skipped highest role for owner replace
++ Added: API: LandPlayerLoadedEvent and LandPlayerDeletedEvent
++ Added: Option for categories.yml
+    land:
+      enabled: true
+      categories:
+        members:
+          enabled: true
+          # Allow land owners to enable a option to automatically accept new membership requests.
+          # If set to false, the option is also disabled for existing lands, when the server is restarted.
+          allow-auto-accept: true
