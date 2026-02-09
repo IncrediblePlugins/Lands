@@ -155,34 +155,6 @@ general:
     # 1000 = 1k
     short-unit: '${value}{unit}'
 
-  # Reward players by playing on your server.
-  # Explanation: https://wiki.incredibleplugins.com/lands/configuration/playtime-rewards
-  # NOTE: This setting requires server reload / restart.
-  time-reward:
-    enabled_17: false
-    # After how many seconds should players get rewarded with plus 1
-    # chunk, land, own land or member.
-    # NOTE: Time unit is seconds.
-    # NOTE: Changing these requires server reload / restart.
-    # NOTE: It can take up to 60 seconds for the player to get rewarded.
-    time:
-      # Plus 1 chunk (/lands claim) each x seconds.
-      # If you want to disable this specific option, just set it to 0 or -1.
-      chunk: 3600
-      # Plus 1 lands where a player can be a member (not owner - /lands accept, /lands trust) each x seconds.
-      # If you want to disable this specific option, just set it to 0 or -1.
-      land: 43200
-      # Plus 1 land creation (/lands create) each x seconds.
-      # If you want to disable this specific option, just set it to 0 or -1.
-      land-own: 86400
-      # Plus 1 land member (/lands trust) each x seconds.
-      # If you want to disable this specific option, just set it to 0 or -1.
-      member: 21600
-      # Plus 1 lands.chunks.support.<number> each x seconds.
-      # This permission contributes claims to lands you're trusted in.
-      # If you want to disable this specific option, just set it to 0 or -1.
-      support: 0
-
   # Should players with the permission (lands.admin) be notified that there is a new update available?
   upd-notify: false
   # Provide bedrock forms for bedrock players, instead of the normal GUI?
