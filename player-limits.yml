@@ -1,6 +1,7 @@
 # Here you can disable the limits file to use permission based limits instead.
 # Disabling this is not recommended as some features won't work with permission based limits.
-enabled: false
+# NOTE: This setting requires server reload / restart.
+enabled: true
 
 # In this file you can configure numbered limits for all players.
 # You can create multiple limit packs, if you want players to get different limits.
@@ -22,7 +23,8 @@ packs:
       # Amount of chunks a player can claim across all lands (owned & trusted).
       # "land_chunks" is used to limit lands in their size.
       player_chunks: 50
-      # Amount of chunks the player can claim free of charge combined for all lands they own and that they are trusted in.
+      # Amount of chunks the player can claim free of charge combined for all lands they own
+      # and that they are trusted in (in case claim cost is configuted).
       player_chunks_free: 0
       # How many areas a player can rent across all lands.
       player_rentals: 1
@@ -45,8 +47,9 @@ packs:
       # Amount of lands they can add to the nation that they own.
       nation_lands: 10
 
+  # This is just an example to show that you can add multiple packs.
   example:
-    # Required permission to get this group assigned.
+    # Required permission to get this pack assigned.
     permission: "lands.limitpack.example"
     limits:
       player_lands_owned: 1

@@ -70,6 +70,7 @@ general:
   # For /lands claim you will still need to set the claim land with /lands edit.
   edit-by-loc: false
 
+  # Deprecated: Use the new limits file instead: https://wiki.incredibleplugins.com/general/locale-and-config/limits
   # If enabled, limit permissions will be combined instead of just taking the highest value.
   # Example: A player has the permission lands.chunks.5 and lands.chunks.2.
   #          If enabled: This will result in a limit of 7 chunks.
