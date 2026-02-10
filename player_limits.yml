@@ -1,68 +1,87 @@
-# In this file you can configure each players limits.
-# A player can only have one pack. Every time a player joins the server the pack
-# gets evaluated. The last pack, that they have the required permission for, it taken.
+# Here you can disable the limits file to use permission based limits instead.
+# Disabling this is not recommended as some features won't work with permission based limits.
+enabled: false
+
+# In this file you can configure numbered limits for all players.
+# You can create multiple limit packs, if you want players to get different limits.
+# A pack is assigned if the player has a specific permission.
+# A player can only have one pack. Every time a player joins, the pack
+# gets evaluated. If they have the permission for multiple packs, the pack last in the list of this file will be taken.
 # Changes to this file can be applied to players on the server by executing /lands admin reload.
 packs:
   default:
-    values:
-      # Lands they can own.
-      own_lands: 2
-      # Amount of lands they can create free of charge. Can't be higher than "own_lands"
-      own_lands_free: 1
+    limits:
+      # Amount of lands the player can own.
+      player_lands_owned: 1
+      # Amount of lands they can create free of charge (in case creation cost is configured).
+      player_lands_owned_free: 0
+      # Amount of lands a player can be trusted in (owned lands excluded).
+      player_lands_trusted: 1
       # Amount of temporary camps they can have at the same time.
-      own_camps: 1
-      # How many chunks each land they own can claim max.
-      land_chunks: 10
-      # How many chunks should the player be able to claim combined for all lands they own and that they are trusted in?
-      player_chunks: 10
-      # How many members they can trust to each land they own.
+      player_camps_owned: 1
+      # Amount of chunks a player can claim across all lands (owned & trusted).
+      # "land_chunks" is used to limit lands in their size.
+      player_chunks: 50
+      # Amount of chunks the player can claim free of charge combined for all lands they own and that they are trusted in.
+      player_chunks_free: 0
+      # How many areas a player can rent across all lands.
+      player_rentals: 1
+      # How many chunks each land they own can claim max. This can be used to limit land sizes.
+      # "player_chunks" is used to control how many chunks each player can claim.
+      land_chunks: 100
+      # Amount of players they can trust to each land they own.
       land_members: 20
-      # In how many parts each land they own can be split into.
+      # Amount of parts the lands they own can be split into. Allowing the creation of outposts.
+      # If set to 1, no splits allowed.
       land_parts: 1
-      # How many areas they can create for each land they own.
-      land_areas: 50
-      # Amount of roles they can create for each area in their land.
-      land_roles: 20
-      # Amount of allies they can add for each land.
+      # Amount of sub areas they can create for each land they own.
+      land_areas: 20
+      # Amount of allies they can add for each land they own.
       land_allies: 10
-      # Amount of enemies they can add for each land.
-      land_enemies: 50
-      # In how many lands they can be trusted besides lands they own.
-      trusted_lands: 1
-      # How many areas they can rent in each land they're trusted.
-      rentals: 1
-      # Amount of lands they can add to their nation.
+      # Amount of enemies they can add for each land they own.
+      land_enemies: 20
+      # Amount of roles they can create for each area in their owned lands.
+      area_roles: 20
+      # Amount of lands they can add to the nation that they own.
       nation_lands: 10
 
+  example:
+    # Required permission to get this group assigned.
+    permission: "lands.limitpack.example"
+    limits:
+      player_lands_owned: 1
+      player_lands_owned_free: 1
+      player_lands_trusted: 1
+      player_camps_owned: 1
+      player_chunks: 50
+      player_chunks_free: 0
+      player_rentals: 1
+      land_chunks: 100
+      land_members: 20
+      land_parts: 1
+      land_areas: 20
+      land_allies: 10
+      land_enemies: 20
+      area_roles: 20
+      nation_lands: 10
 
 # By setting up time rewards you can increase a players limit according to their time that they played on the server.
-# Time format example: 1s = 1 second, 1h = one hour, 1d = one day
+# A player will receive additional limits each configured period. The playtime is calculated by the server.
+# If you delete the primary world, the playtime of players will likely reset. This is handled by the server itself.
+# Time units are: s = seconds, m = minutes, h = hours, d = days
 time-rewards:
-  # Lands they can own.
-  own_lands: 0s
-  # Amount of lands they can create free of charge. Can't be higher than "own_lands"
-  own_lands_free: 0s
-  # Amount of temporary camps they can have at the same time.
-  own_camps: 0s
-  # How many chunks each land they own can claim max.
-  land_chunks: 0s
-  # How many chunks should the player be able to claim combined for all lands they own and that they are trusted in?
+  player_lands_owned: 0s
+  player_lands_owned_free: 0s
+  player_lands_trusted: 0s
+  player_camps_owned: 0s
   player_chunks: 0s
-  # How many members they can trust to each land they own.
+  player_chunks_free: 0s
+  player_rentals: 0s
+  land_chunks: 0s
   land_members: 0s
-  # In how many parts each land they own can be split into.
   land_parts: 0s
-  # How many areas they can create for each land they own.
   land_areas: 0s
-  # Amount of roles they can create for each area in their land.
-  land_roles: 0s
-  # Amount of allies they can add for each land.
   land_allies: 0s
-  # Amount of enemies they can add for each land.
   land_enemies: 0s
-  # In how many lands they can be trusted besides lands they own.
-  trusted_lands: 0s
-  # How many areas they can rent in each land they're trusted.
-  rentals: 0s
-  # Amount of lands they can add to their nation.
+  area_roles: 0s
   nation_lands: 0s
