@@ -1,15 +1,4 @@
-While this update was extensively tested, we still recommend taking a backup of your database before updating.
-
-This version introduces a new player-limits.yml file to manage limits such as max lands, chunks etc. through a configuration file instead of permissions. For existing servers the limits file will be **disabled** by default, so that permissions are used for the limits. It needs to enabled in the file, if you want to use it.
-
-Support Chunks Replaced
-* Support chunks have been replaced with player_chunks in the limits file. However, this new limit works differently... player_chunks limits the amount of chunks a player can claim across ALL lands (owned and trusted).
-* This limit will only be taken from players, IF they claim for their own land or they actively execute /claim for a land they're trusted in.
-* If a trusted player leaves the land and had chunks claimed, these chunks will be transferred to the owners balance. If the owner reached their maximum of chunks claimed in total, the chunks will be unclaimed and the land will be notified about that.
-
-Other Important Changes
-* Time rewards have been moved to the new limits file and are only available if the limits file is enabled.
-* Modifying limits through the ``/lands admin player <player> give`` command is only available if the limits file is enabled. The new command is now ``/lands admin player <player> give limit <limit> <amount>``
-* Permission stacking has been removed from the config. No replacement needed since limits are now managed through the limits file.
-
---> Both these things often caused trouble when used incorrectly in combination with numbered permissions. That's why they are now only available with the new limits file.
++ Added: Limits in player-limits.yml can now be disabled by setting them to -1
+- Fixed: Error while retrieving offline player from database
+- Fixed: Players not able to accept invite due to missing trusted lands limit
+- Fixed: Don't allow combat tags for players that aren't in survival game mode

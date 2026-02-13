@@ -8,6 +8,7 @@ enabled: true
 # A pack is assigned if the player has a specific permission.
 # A player can only have one pack. Every time a player joins, the pack
 # gets evaluated. If they have the permission for multiple packs, the pack last in the list of this file will be taken.
+# You can disable limits by setting the value to -1. However, in general, it's recommended to set limits to prevent abuse.
 # Changes to this file can be applied to players on the server by executing /lands admin reload.
 packs:
   default:
