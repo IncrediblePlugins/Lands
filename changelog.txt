@@ -1,4 +1,3 @@
-+ Added: Limits in player-limits.yml can now be disabled by setting them to -1
-- Fixed: Error while retrieving offline player from database
-- Fixed: Players not able to accept invite due to missing trusted lands limit
-- Fixed: Don't allow combat tags for players that aren't in survival game mode
+- Fixed: /lands setrole with untrusted players should send appropriate failure message instead of failing silently
+- Fixed: Use LandPostCreateEvent for dynmap addons
+- Fixed: player-limits.yml repeatily disabled for existing servers in rare cases - should only once
