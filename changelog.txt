@@ -1,3 +1,3 @@
-- Fixed: /lands setrole with untrusted players should send appropriate failure message instead of failing silently
-- Fixed: Use LandPostCreateEvent for dynmap addons
-- Fixed: player-limits.yml repeatily disabled for existing servers in rare cases - should only once
++ Improved: Improved "invalid text" messages when creating land or nation or other stuff - its now easier to understand. Especially if a dialog contains multiple input fields.
+- Fixed: Sorting context error
+- Fixed: Admin give command still using old limit permissions for auto complete
