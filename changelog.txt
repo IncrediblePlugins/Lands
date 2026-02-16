@@ -1,3 +1,4 @@
-+ Improved: Improved "invalid text" messages when creating land or nation or other stuff - its now easier to understand. Especially if a dialog contains multiple input fields.
-- Fixed: Sorting context error
-- Fixed: Admin give command still using old limit permissions for auto complete
+- Fixed: Some minor errors during land expiration task when deleting many inactive players
++ Improved: Alliance requests revoke process at land deletion
+- Fixed: Allied players not joining team during war
++ Improved: Handling of incorrect playtime and offline times returned by server
