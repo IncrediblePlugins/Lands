@@ -1,1 +1,2 @@
-- Fixed: Merging limit pack with empty limit pack would always result in empty limit pack, even if first limit pack had values
++ Added: /lands admin refreshlimits to forcefully apply changes of player-limits.yml to all players (even offline), lands and nations
++ Added: lands_player_chat and lands_player_chat_bool, lands_player_chunks_claimed, lands_player_chunks_left PlaceholderAPI placeholders
