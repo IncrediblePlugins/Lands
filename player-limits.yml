@@ -73,20 +73,54 @@ packs:
 # By setting up time rewards you can increase a players limit according to their time that they played on the server.
 # A player will receive additional limits each configured period. The playtime is calculated by the server.
 # If you delete the primary world, the playtime of players will likely reset. This is handled by the server itself.
-# Time units are: s = seconds, m = minutes, h = hours, d = days
 time-rewards:
-  player_lands_owned: 0s
-  player_lands_owned_free: 0s
-  player_lands_trusted: 0s
-  player_camps_owned: 0s
-  player_chunks: 0s
-  player_chunks_free: 0s
-  player_rentals: 0s
-  land_chunks: 0s
-  land_members: 0s
-  land_parts: 0s
-  land_areas: 0s
-  land_allies: 0s
-  land_enemies: 0s
-  area_roles: 0s
-  nation_lands: 0s
+  player_lands_owned:
+    # Players receive one additional owned land each configured period.
+    # Time units are: s = seconds, m = minutes, h = hours, d = days
+    # 0s = disabled
+    time: 0s
+    # Set the maximum amount of owned lands that they can receive through their play time.
+    # -1 = no limit
+    max: -1
+  player_lands_owned_free:
+    time: 0s
+    max: -1
+  player_lands_trusted:
+    time: 0s
+    max: -1
+  player_camps_owned:
+    time: 0s
+    max: -1
+  player_chunks:
+    time: 0s
+    max: -1
+  player_chunks_free:
+    time: 0s
+    max: -1
+  player_rentals:
+    time: 0s
+    max: -1
+  land_chunks:
+    time: 0s
+    max: -1
+  land_members:
+    time: 0s
+    max: -1
+  land_parts:
+    time: 0s
+    max: -1
+  land_areas:
+    time: 0s
+    max: -1
+  land_allies:
+    time: 0s
+    max: -1
+  land_enemies:
+    time: 0s
+    max: -1
+  area_roles:
+    time: 0s
+    max: -1
+  nation_lands:
+    time: 0s
+    max: -1

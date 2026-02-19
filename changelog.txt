@@ -1,2 +1,8 @@
-+ Added: /lands admin refreshlimits to forcefully apply changes of player-limits.yml to all players (even offline), lands and nations
-+ Added: lands_player_chat and lands_player_chat_bool, lands_player_chunks_claimed, lands_player_chunks_left PlaceholderAPI placeholders
++ Added: You can now define max play time rewards for limits:
+time-rewards:
+  player_lands_owned:
+    time: 1h
+    max: 10 <- max amount received through playtime
+
++ Added: Also return ally status through placeholderapi if player directly trusted
+- Fixed: "claim.initial.world" being sent two times at /lands claim
