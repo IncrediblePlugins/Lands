@@ -4,13 +4,12 @@
 enabled: true
 
 # In this file you can configure numbered limits for all players.
-# You can create multiple limit packs, if you want players to get different limits.
+# You can create multiple limit packs, if you want players to get different limits. Just add them in the "packs" section.
 # A pack is assigned if the player has a specific permission.
 # A player can only have one pack. Every time a player joins, the pack
 # gets evaluated. If they have the permission for multiple packs, the pack last in the list of this file will be taken.
 # You can disable limits by setting the value to -1. However, in general, it's recommended to set limits to prevent abuse.
 # Changes to this file can be applied to all players, lands and nations, using the "/lands admin refreshlimits" command.
-
 packs:
   default:
     limits:
@@ -49,26 +48,27 @@ packs:
       # Amount of lands they can add to the nation that they own.
       nation_lands: 10
 
-  # This is just an example to show that you can add multiple packs.
-  example:
+  # Pack for server admins that removes nearly all limits for them.
+  # You can remove this, if you don't want it.
+  admin:
     # Required permission to get this pack assigned.
-    permission: "lands.limitpack.example"
+    permission: "lands.admin.no_limits"
     limits:
-      player_lands_owned: 1
+      player_lands_owned: -1
       player_lands_owned_free: 1
-      player_lands_trusted: 1
-      player_camps_owned: 1
-      player_chunks: 50
+      player_lands_trusted: -1
+      player_camps_owned: -1
+      player_chunks: -1
       player_chunks_free: 0
-      player_rentals: 1
-      land_chunks: 100
-      land_members: 20
-      land_parts: 1
-      land_areas: 20
-      land_allies: 10
-      land_enemies: 20
-      area_roles: 20
-      nation_lands: 10
+      player_rentals: -1
+      land_chunks: -1
+      land_members: -1
+      land_parts: -1
+      land_areas: -1
+      land_allies: -1
+      land_enemies: -1
+      area_roles: -1
+      nation_lands: -1
 
 # By setting up time rewards you can increase a players limit according to their time that they played on the server.
 # A player will receive additional limits each configured period. The playtime is calculated by the server.

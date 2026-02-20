@@ -1,8 +1,2 @@
-+ Added: You can now define max play time rewards for limits:
-time-rewards:
-  player_lands_owned:
-    time: 1h
-    max: 10 <- max amount received through playtime
-
-+ Added: Also return ally status through placeholderapi if player directly trusted
-- Fixed: "claim.initial.world" being sent two times at /lands claim
++ Added: Limit packs are now automatically refreshed if permissions change in a luckperms group or for a luckperms user
+- Fixed: Potential limit overflow in rare cases
