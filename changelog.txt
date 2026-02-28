@@ -1,2 +1,4 @@
-+ Added: Limit packs are now automatically refreshed if permissions change in a luckperms group or for a luckperms user
-- Fixed: Potential limit overflow in rare cases
++ Added: /lands admin limits migrate - migrate from numbered permissions to the new limits file
+Limit packs should be configured in the player-limits.yml beforehand.
++ Improved: Clarified parameters for /lands admin land <land> setflag
+- Fixed: %lands_player_chunks_claimed% papi placeholder not returning valid result

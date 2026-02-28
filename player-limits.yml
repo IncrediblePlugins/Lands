@@ -14,7 +14,7 @@ enabled: true
 # You can disable limits by setting the value to -1. However, in general, it's recommended to set limits to prevent abuse.
 # Limits that are not added to a pack, will automatically be set to 0 for the pack.
 #
-# Changes to this file can be applied to all players, lands and nations, using the "/lands admin refreshlimits" command.
+# Changes to this file can be applied to all players, lands and nations, using the "/lands admin limits refresh" command.
 packs:
   # Pack for server admins that removes nearly all limits for them.
   # You can remove this, if you don't want it.

@@ -161,7 +161,6 @@ general:
   # Provide bedrock forms for bedrock players, instead of the normal GUI?
   bedrock-forms: true
 
-
 # General options for economic tasks, that apply to taxes, upkeep and nation upkeep.
 # Each task has it's own section, in this file and nations.yml, with specified options.
 # These options require server reload / restart.
