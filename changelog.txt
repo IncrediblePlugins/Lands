@@ -1,4 +1,5 @@
-+ Added: /lands admin limits migrate - migrate from numbered permissions to the new limits file
-Limit packs should be configured in the player-limits.yml beforehand.
-+ Improved: Clarified parameters for /lands admin land <land> setflag
-- Fixed: %lands_player_chunks_claimed% papi placeholder not returning valid result
++ Added: {land_owner} variable for land related events in events.yml
++ Added: {created_at} and {nation_created_at} placeholders for bluemap etc.
+- Fixed: Some placeholders could not be used in bluemap
+- Fixed: In rare cases the nation wouldn't level up correctly
+- Fixed: Players not being added correctly to wars in rare cases leading to wrong placeholder relations

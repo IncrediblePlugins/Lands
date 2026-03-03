@@ -50,7 +50,7 @@ packs:
       player_camps_owned: 1
       # Amount of chunks a player can claim across all lands (owned & trusted).
       # "land_chunks" is used to limit lands in their size.
-      player_chunks: 50
+      player_chunks: -1
       # Amount of chunks the player can claim free of charge combined for all lands they own
       # and that they are trusted in (in case claim cost is configuted).
       player_chunks_free: 0
