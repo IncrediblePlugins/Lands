@@ -1065,8 +1065,8 @@ integration:
   manager:
     WorldEdit:
       # Disallow WorldEdit use in other players lands, where the player isn't trusted?
-      # Bypass permission in claims: lands.bypass.worldedit
-      # Bypass permission in wilderness: lands.bypass.wilderness.worldedit
+      # If you use FAWE, please keep in mind that players can bypass protections with worldedit, if the have the "fawe.lands" permission.
+      # Also when using FAWE "region-restrictions" must be enabled in the FAWE config.
       enabled_7: true
 
     # Apply the lands-claim flag also to global regions in world manager plugins, like WorldGuard?
