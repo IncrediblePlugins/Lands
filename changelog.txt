@@ -1,8 +1,3 @@
-A few years ago the complete database was overhauled. Please note that the old database version will no longer be supported starting with this version.
-If you currently use the old version and have updated Lands in the last two years, it will send a warning message in the console asking you to migrate.
-If that's not the case, you already use the new database version. If you currently get this warning, migrate the database first before updating.
-
-- Fixed: Copper chest falling under interact_general flag instead of interact_container
-- Fixed: Spreading of cave vines, bamboo and kelp via plant growth flag
-- Fixed: Tenant or players that are trusted to sub area cant find land in their menu after a server reboot in some cases
-- Fixed: /lands rename sending land with name exists if is same but different color
++ Added: /lands admin player <player> limits command
++ Added: /lands admin land <land> limits command
+- Fixed: Players being able to open trapdoors using maces
