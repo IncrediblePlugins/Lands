@@ -1,3 +1,2 @@
-+ Added: /lands admin player <player> limits command
-+ Added: /lands admin land <land> limits command
-- Fixed: Players being able to open trapdoors using maces
++ Added: min-length and max-length to both land and nation name and tag options in config.yml
++ Added: Inbox message for when a player rents or buys an area/land

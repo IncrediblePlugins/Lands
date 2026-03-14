@@ -269,10 +269,12 @@ land:
     # Disabling this option at a later time, will also remove spaces from existing lands.
     # NOTE: This setting required server reload / restart.
     spaces: false
+    # Minimum land name length
+    min-length: 5
     # Maximum land name length
     # The maximum possible length is 80 when using MySQL and 32 when using SQLite (including color codes).
     # How to filter names: https://wiki.incredibleplugins.com/general/locale-and-config/messages#filter-swear-words-and-forbidden-names
-    length_2: 24
+    max-length: 24
     # Should colors be allowed in land names?
     # Disabling this option at a later time, will also remove color from existing lands.
     color_2: true
@@ -298,9 +300,11 @@ land:
     # Enable tags?
     # NOTE: This setting required server reload / restart.
     enabled_8: true
+    # Minimum land tag length
+    min-length_2: 1
     # Maximum land tag length
     # The maximum possible length is 80 when using MySQL and 32 when using SQLite (including color codes).
-    length_3: 4
+    max-length_2: 4
     # Should colors be allowed in land tags?
     # Disabling this option at a later time, will also remove color from existing lands.
     color_6: false

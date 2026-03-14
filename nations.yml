@@ -20,10 +20,12 @@ nation:
     # Spaces will be replaced with an underscore, when being displayed as a command parameter.
     # Disabling this option at a later time, will also remove spaces from existing nations.
     spaces: false
+    # Minimum nation name length
+    min-length: 5
     # Maximum nation name length
     # The maximum possible length is 80 when using MySQL and 32 when using SQLite (including color codes).
     # How to filter names: https://wiki.incredibleplugins.com/general/locale-and-config/messages#filter-swear-words-and-forbidden-names
-    length: 24
+    max-length: 24
     # Should colors be allowed in nation names?
     # Disabling this option at a later time, will also remove color from existing nations.
     color: true
@@ -49,9 +51,11 @@ nation:
     # Enable tags?
     # NOTE: This setting required server reload / restart.
     enabled_2: true
+    # Minimum nation tag length
+    min-length_2: 1
     # Maximum nation tag length
     # The maximum possible length is 80 when using MySQL and 32 when using SQLite (including color codes).
-    length_2: 4
+    max-length_2: 4
     # Should colors be allowed in nation tags?
     # Disabling this option at a later time, will also remove color from existing nations.
     color_2: false
