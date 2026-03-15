@@ -1,2 +1,6 @@
 + Added: min-length and max-length to both land and nation name and tag options in config.yml
 + Added: Inbox message for when a player rents or buys an area/land
++ Added: ignore-max of claimblock claim back for the new player_chunks limit
++ Added: Names and skins of Bedrock players are now fetched and updated as well
++ Changed: Take spawn of default area as land spawn
+- Fixed: Sub area auto spawn set

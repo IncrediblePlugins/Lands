@@ -256,3 +256,4 @@ land:
         - LAND_ENTER
         - ITEM_PICKUP
         - ATTACK_MONSTER
+        - ATTACK_PLAYER
