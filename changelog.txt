@@ -1,6 +1,8 @@
-+ Added: min-length and max-length to both land and nation name and tag options in config.yml
-+ Added: Inbox message for when a player rents or buys an area/land
-+ Added: ignore-max of claimblock claim back for the new player_chunks limit
-+ Added: Names and skins of Bedrock players are now fetched and updated as well
-+ Changed: Take spawn of default area as land spawn
-- Fixed: Sub area auto spawn set
++ Added: You can now stack limit packs for players:
+packs:
+  # If enabled, all packs the player has, will be merged and the limits stacked.
+  # Basically the limit of each pack that the player has, will be added on top of each other.
+  # If you change this value, you may want to update already configured packs accordingly.
+  stack: false
+
+The option needs to be added manually to the player-limits file in this case. See default file:

@@ -16,6 +16,10 @@ enabled: true
 #
 # Changes to this file can be applied to all players, lands and nations, using the "/lands admin limits refresh" command.
 packs:
+  # If enabled, all packs the player has, will be merged and the limits stacked.
+  # Basically the limit of each pack that the player has, will be added on top of each other.
+  # If you change this value, you may want to update already configured packs accordingly.
+  stack: false
   # Pack for server admins that removes nearly all limits for them.
   # You can remove this, if you don't want it.
   admin:
