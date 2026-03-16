@@ -5,4 +5,7 @@ packs:
   # If you change this value, you may want to update already configured packs accordingly.
   stack: false
 
-The option needs to be added manually to the player-limits file in this case. See default file:
+The option needs to be added manually to the player-limits file in this case. See default file: https://github.com/IncrediblePlugins/Lands/blob/main/player-limits.yml
+
+- Fixed: Increasing or decreasing taxes in taxes menu doesn't do anything if min or max reached
+- Fixed: Dont trigger combat tag cmds on server restart
