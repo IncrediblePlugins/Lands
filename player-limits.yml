@@ -33,7 +33,7 @@ packs:
       player_chunks: -1
       player_chunks_free: 0
       player_rentals: -1
-      land_chunks: -1
+      land_size: -1
       land_members: -1
       land_parts: -1
       land_areas: -1
@@ -53,7 +53,7 @@ packs:
       # Amount of temporary camps they can have at the same time.
       player_camps_owned: 1
       # Amount of chunks a player can claim across all lands (owned & trusted).
-      # "land_chunks" is used to limit lands in their size.
+      # "land_size" is used to limit lands in their size.
       player_chunks: -1
       # Amount of chunks the player can claim free of charge combined for all lands they own
       # and that they are trusted in (in case claim cost is configuted).
@@ -62,7 +62,7 @@ packs:
       player_rentals: 1
       # How many chunks each land they own can claim max. This can be used to limit land sizes.
       # "player_chunks" is used to control how many chunks each player can claim.
-      land_chunks: 100
+      land_size: 100
       # Amount of players they can trust to each land they own.
       land_members: 20
       # Amount of parts the lands they own can be split into. Allowing the creation of outposts.
@@ -109,7 +109,7 @@ time-rewards:
   player_rentals:
     time: 0s
     max: -1
-  land_chunks:
+  land_size:
     time: 0s
     max: -1
   land_members:

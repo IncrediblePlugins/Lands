@@ -331,6 +331,13 @@ land:
       # This requires PlaceholderAPI to be installed.
       3rd-party: false
 
+  # Increases the land_size limit of the land for each trusted player.
+  # Please note that this only increases the max size. Depending on your player-limits.yml,
+  # this might not increase the actual amount of chunks that can be claimed,
+  # as this is modified by the player_chunks limit (from player-limits.yml) as well.
+  # This setting only influences the max theoretical size of the land.
+  increase-max-size-per-member: 0
+
   # Set the minimum Euclidean distance in chunks (16 blocks). Players won't be able to claim in this buffer zone,
   # unless their role has the LAND_CLAIM_BORDER flag in the neighboring land.
   chunk-distance:

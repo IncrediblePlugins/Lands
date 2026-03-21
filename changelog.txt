@@ -1,11 +1,12 @@
-+ Added: You can now stack limit packs for players:
-packs:
-  # If enabled, all packs the player has, will be merged and the limits stacked.
-  # Basically the limit of each pack that the player has, will be added on top of each other.
-  # If you change this value, you may want to update already configured packs accordingly.
-  stack: false
++ Added: Developer API: Land#modifyBalance(value, notify), Land#setBalance(value, notify)
+https://github.com/IncrediblePlugins/LandsAPI/commit/01d7ce9b4e9c30d6af1714b051df2d797c77dece
 
-The option needs to be added manually to the player-limits file in this case. See default file: https://github.com/IncrediblePlugins/Lands/blob/main/player-limits.yml
++ Added: Option to increase land_size limit for each trusted player
+  # Increases the land_size limit of the land for each trusted player.
+  # Please note that this only increases the max size. Depending on your player-limits.yml,
+  # this might not increase the actual amount of chunks that can be claimed,
+  # as this is modified by the player_chunks limit (from player-limits.yml) as well.
+  # This setting only influences the max theoretical size of the land.
+  increase-max-size-per-member: 0
 
-- Fixed: Increasing or decreasing taxes in taxes menu doesn't do anything if min or max reached
-- Fixed: Dont trigger combat tag cmds on server restart
++ Changed: Using bonemeal on crops and plants is now bound to the PLANT flag and not the HARVEST flag
